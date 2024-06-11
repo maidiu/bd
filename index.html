@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="alert.js" defer></script>
+    <script src="script.js" defer></script>
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>RAVE TIME</title>
+    
+</head>
+<body>
+    <div id="customAlert">
+        <div id="custom-alert-box">
+            <div id="custom-alert-box-text">
+            </div>
+            <button id="custom-alert-close" onclick="hideAlert()"></button>
+        </div>
+    </div>
+    
+    <h1 id="jQuery">BIRTHDAY TIME</h1>
+    <p>click buttons for colors<br> double-click to rave<br>choose more rave colors from the drop-down</p>
+    <div id='switch-container'>gen-alpha&nbsp;&nbsp;<div class="switch"></div> &nbsp;&nbsp;millenial</div>
+   
+
+ 
+    <audio id="skibidi-rave" loop>
+        <source src="hbd.mp3" type="audio/mp3">
+    </audio>
+
+    <audio id="hardcore">
+        <source src="hbd.mp3" type="audio/mp3">
+    </audio>
+    
+    <!--<a href="https://blackoutbookingmanagement.com">
+        <img src="images/front.jpg" alt="logo and bear" id="logo">
+    </a>-->
+        <div id="lb-container">
+            <img src="birthdaymax.png" id="ladybug">
+            <div id="lb-quotes"></div>
+        </div>
+    <div id="buttons">
+        <button class="deleteable" id="red">red</button>
+        <button class="deleteable" id="green">green</button>
+        <button class="deleteable" id="blue">blue</button>
+        <button class="deleteable" id="yellow">yellow</button>
+        <button class="deleteable" id="orange">orange</button>
+        <button class="deleteable" id="white">white</button>
+    <!--<button class="lightswitch-rave">rave time</button>-->
+    </div>
+    
+    <form>
+        <select id="color-dropdown"></select>
+            <button type="submit" id="submit">submit</button>
+            <button id="add">add color (shift+click to remove)</button>
+    </form>
+
+     
+    
+</body>
+</html>

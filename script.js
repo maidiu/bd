@@ -273,7 +273,7 @@ $(document).keypress(function(event) {
 
 let message = '';
 
-/*$(document).on('keypress', function(event) {
+$(document).on('keypress', function(event) {
     if (event.which === 13) {
         for (let i = 0; i < pressed.length - 1; i++) {
             message += pressed[i];
@@ -308,7 +308,7 @@ $('h1').on('mouseleave', function() {
     $('h1').text('type, then press "enter"')
     $('h1').css('font-size', '3em')
 })
-*/
+
 
 let colorChange = document.querySelector('#color-change')
 

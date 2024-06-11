@@ -53,6 +53,8 @@ function addButtons() {
 
 addButtons()
 
+customAlertClose.addEventListener('click', raveTime)
+
 /*let isDark = false;
 let origColor = ''
 
